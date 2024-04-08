@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ReporteComplementariosGENERAL
+{
+    public class Docente
+    {
+        public string NumeroControl { get; set; } = null!;
+        public string Nombre { get; set; } = null!;
+        public List<Materia> ListadoMaterias { get; set; } = null!;
+
+    }
+}
